@@ -1,0 +1,26 @@
+{
+  "name": "hw_6_git",
+  "version": "1.0.0",
+  "description": "Practic git and jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Whitemple/otus_hw_lesson6.git"
+  },
+  "keywords": [
+    "npm",
+    "javascript",
+    "jest",
+    "unit",
+    "testing"
+  ],
+  "author": "Iaroslav <yarikkhromey@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Whitemple/otus_hw_lesson6/issues"
+  },
+  "homepage": "https://github.com/Whitemple/otus_hw_lesson6#readme"
+}
