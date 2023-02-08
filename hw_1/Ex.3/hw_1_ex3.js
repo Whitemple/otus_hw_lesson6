@@ -5,7 +5,7 @@
 */
 
 const sumEnteredNumbers=()=>{
-    const result = prompt('Enter 3 numbers: ').split('').map(Number).reduce((i, value)=>i+value, 0);
+    let result = prompt('Enter 3 numbers: ').split('').map(Number).reduce((i, value)=>i+value, 0);
     return result;
 }
 
