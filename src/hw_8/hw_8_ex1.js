@@ -26,16 +26,13 @@ const showWeekDay = () => {
     const myDate = new Date(`${year}-${mounth}-${day}`);
     const nameOfDay = myDate.getDay();
     return days[nameOfDay];
-    
 }
 
-const showMinutsFromdayStart = () => {
-    const nowDay = new Date();
+const showMinutsFromdayStart = (nowDay) => {
     const minutsPast = nowDay.getMinutes();
     const hoursPast = nowDay.getHours();
     const result = minutsPast+(hoursPast*60);
     return result;
 }
 
-module.exports={showWeekDay};
-module.exports={showMinutsFromdayStart};
+module.exports={showWeekDay, showMinutsFromdayStart};
