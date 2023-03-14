@@ -46,4 +46,4 @@ const showMounth = () =>{
     }
 }
 
-module.exports={showMounth};
+export {showMounth};

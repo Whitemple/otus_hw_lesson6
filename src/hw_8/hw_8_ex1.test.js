@@ -4,7 +4,7 @@
 недели по введённой дате.
 */
 
-const {showWeekDay} = require('./hw_8_ex1');
+import { showWeekDay } from './hw_8_ex1.js';
 
 describe('Checking showWeekDay function: ',()=>{
     test("Expect Tuesday for entered date 20.07.1993 ",()=>{
@@ -27,7 +27,7 @@ describe('Checking showWeekDay function: ',()=>{
 дня.
 */
 
-const {showMinutsFromdayStart} = require('./hw_8_ex1');
+import { showMinutsFromdayStart } from './hw_8_ex1.js';
 
 describe('Testing showMinutsFromdayStart function: ', () => {
 

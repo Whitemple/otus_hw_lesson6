@@ -18,4 +18,4 @@ const middleSum = () => {
     return result;
 }
 
-module.exports={middleSum};
+export {middleSum};

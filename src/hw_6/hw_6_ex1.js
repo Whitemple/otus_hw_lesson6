@@ -3,10 +3,8 @@
 наибольшим и наименьшим.
 */
 const diff = (arg1, arg2) => {
-    if(arg1>arg2){
-        return arg1-arg2;
-    }
-    return arg2-arg1;
+    const result = (arg1>arg2) ? arg1-arg2 : arg2-arg1;
+    return result;
 }
 
 /*
@@ -17,10 +15,8 @@ const diff = (arg1, arg2) => {
 */
 const isWord = (string) => {
     const array = string.split(' ');
-    if(array.length>1){
-        return false;
-    }
-    return true;
+    const result = (array.length>1) ? false : true;
+    return result;
 }
 
 /*
@@ -32,4 +28,4 @@ const pow = (a, x) => {
 }
 
 
-module.exports={diff, isWord, pow};
+export {diff, isWord, pow};

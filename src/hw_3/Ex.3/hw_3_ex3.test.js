@@ -4,7 +4,7 @@
 чисел от 1 до N.
 */
 
-const {middleSum} = require('./hw_3_ex3');
+import { middleSum } from './hw_3_ex3.js';
 
 describe('Testing middleSum function: ', ()=>{
     test('Should be equal for num 5 to 3',()=>{

@@ -18,4 +18,4 @@ const aboutCircle = () =>{
 
 
 
-module.exports={checkTriangle, aboutCircle};
+export {checkTriangle, aboutCircle};

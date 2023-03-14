@@ -35,4 +35,4 @@ const showMinutsFromdayStart = (nowDay) => {
     return result;
 }
 
-module.exports={showWeekDay, showMinutsFromdayStart};
+export {showWeekDay, showMinutsFromdayStart};

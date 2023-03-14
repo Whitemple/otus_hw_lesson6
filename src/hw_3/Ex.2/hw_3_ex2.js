@@ -14,4 +14,4 @@ const showmultiplicationTable = () => {
     return arr;
 }
 
-module.exports={showmultiplicationTable};
+export {showmultiplicationTable};

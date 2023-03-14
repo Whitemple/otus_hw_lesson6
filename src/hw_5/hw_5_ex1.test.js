@@ -1,4 +1,4 @@
-const {sumValueArray, createNewArr, findTheSmallest, findTheBiggest} = require('./hw_5_ex1');
+import { sumValueArray, createNewArr, findTheSmallest, findTheBiggest } from './hw_5_ex1.js';
 
 describe('Testing sumValueArray function: ', ()=>{
     

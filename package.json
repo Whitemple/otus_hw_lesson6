@@ -4,7 +4,7 @@
   "description": "Practic git and jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest --env=jsdom"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,12 @@
   },
   "homepage": "https://github.com/Whitemple/otus_hw_lesson6#readme",
   "devDependencies": {
-    "jest": "^29.4.2",
-    "jest-environment-jsdom": "^29.4.2",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@types/jest": "^29.4.1",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
     "jsdom": "^21.1.0"
   }
 }

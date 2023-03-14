@@ -3,7 +3,7 @@
 консоль наибольшее из них.
 */
 
-const {showTheBiggestNumber} = require('./hw_2_ex1');
+import { showTheBiggestNumber } from './hw_2_ex1.js';
 
 describe('Testing showTheBiggestNumber function',()=>{
     test('Should show 5 when arguments are 5 and 2',()=>{

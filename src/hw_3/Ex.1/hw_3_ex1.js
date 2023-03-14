@@ -11,4 +11,4 @@ const showSum = () => {
     return result;
 }
 
-module.exports={showSum};
+export {showSum};

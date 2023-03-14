@@ -11,11 +11,11 @@
 */
 
 const domFunction = (el) => {
-    let p1 = document.createElement("p");
-    let p2 = document.createElement("p");
-    let p3 = document.createElement("p");
-    let input = document.createElement("input");
-    let button = document.createElement("button");
+    const p1 = document.createElement("p");
+    const p2 = document.createElement("p");
+    const p3 = document.createElement("p");
+    const input = document.createElement("input");
+    const button = document.createElement("button");
 
     p1.classList.add("p1");
     p2.classList.add("p2");
@@ -45,4 +45,4 @@ const domFunction = (el) => {
 
 }
 
-module.exports={domFunction};
+export {domFunction};

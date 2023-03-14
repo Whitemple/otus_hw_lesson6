@@ -8,7 +8,7 @@
 содержащий текст из поля ввода.
 */
 
-const {domFunction} = require('./hw_7_ex1');
+import { domFunction } from './hw_7_ex1.js';
 
 describe("Create DOM and testing function domFunction: ", ()=>{
     let el;

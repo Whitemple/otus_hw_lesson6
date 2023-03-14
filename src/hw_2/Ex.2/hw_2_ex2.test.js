@@ -4,7 +4,7 @@
 этому числу (1 — январь, 2 — февраль и т.д.).
 */
 
-const {showMounth} = require('./hw_2_ex2');
+import { showMounth } from './hw_2_ex2.js';
 
 describe('Testing showTheBiggestNumber function',()=>{
     test('Should show Январь when entered argument is 1',()=>{

@@ -3,7 +3,7 @@
 является ли треугольник прямоугольным.
 */
 
-const {checkTriangle} = require('./hw_9_ex1');
+import { checkTriangle } from './hw_9_ex1.js';
 
 
 describe('Cheaking right triangle or not: ',()=>{
@@ -27,7 +27,7 @@ describe('Cheaking right triangle or not: ',()=>{
 которая выведет в консоль длину окружности и
 площадь круга с радиусом R.
 */
-const {aboutCircle} = require('./hw_9_ex1');
+import { aboutCircle } from './hw_9_ex1.js';
 
 describe('Cheaking right triangle or not: ',()=>{
     test("Expect right triangle or not in value 3",()=>{

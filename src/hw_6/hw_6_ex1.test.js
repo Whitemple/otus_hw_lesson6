@@ -1,4 +1,4 @@
-const {diff, isWord, pow} = require('./hw_6_ex1.js');
+import { diff, isWord, pow } from './hw_6_ex1.js';
 
 describe("Testting diff function: ", ()=>{
     test("Return 5 when argument 10 minus argument 5", ()=>{

@@ -6,7 +6,7 @@
 7 x 9 = 63
 */
 
-const {showmultiplicationTable} = require('./hw_3_ex2');
+import { showmultiplicationTable } from './hw_3_ex2.js';
 
 describe('Testing showmultiplicationTable function in hw_3 Ex.2: ', ()=>{
     test('Array must be equal to multiplication table for 7',()=>{

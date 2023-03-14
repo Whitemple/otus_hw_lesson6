@@ -3,7 +3,7 @@
 100.
 */
 
-const {showSum} = require('./hw_3_ex1');
+import { showSum } from './hw_3_ex1.js';
 
 describe('Testing showSum function in hw_3 Ex.1: ', ()=>{
     test('Summary should be 3725',()=>{

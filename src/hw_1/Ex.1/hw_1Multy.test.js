@@ -1,4 +1,4 @@
-const { multy } = require('./hw_1');
+import { multy } from './hw_1.js';
 
 describe('Test for function multy', ()=>{
     test('should return 4 after 2*2',()=>{

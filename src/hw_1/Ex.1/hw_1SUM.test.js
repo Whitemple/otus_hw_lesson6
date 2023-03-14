@@ -1,4 +1,4 @@
-const { sum } = require('./hw_1');
+import { sum } from './hw_1.js';
 
 describe('Test for function sum', ()=>{
     test('should return 2 after 1+1',()=>{

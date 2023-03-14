@@ -7,4 +7,4 @@
 const multy = (a, b) => a*b;
 const sum = (a, b) => a+b;
 
-module.exports={multy, sum};
+export {multy, sum};

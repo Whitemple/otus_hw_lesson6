@@ -1,5 +1,4 @@
-
-const {sumLengthString} = require('./hw_1_ex2');
+import { sumLengthString } from './hw_1_ex2.js';
 
 describe('Testing the sumLengthString function:',()=>{
     test("Expect 5 for sum string length 'ada' and 'ru' ",()=>{

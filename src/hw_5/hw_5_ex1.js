@@ -34,4 +34,4 @@ const findTheBiggest = (arr) => {
    return  Math.max.apply(null, arr);
 }
 
-module.exports={sumValueArray, createNewArr, findTheSmallest, findTheBiggest};
+export {sumValueArray, createNewArr, findTheSmallest, findTheBiggest};

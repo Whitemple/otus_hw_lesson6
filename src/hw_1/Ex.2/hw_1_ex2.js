@@ -5,4 +5,4 @@
 
 const sumLengthString = (firstArg, secondArg) => firstArg.length + secondArg.length
 
-module.exports={sumLengthString};
+export {sumLengthString};

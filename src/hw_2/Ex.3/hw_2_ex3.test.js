@@ -1,4 +1,4 @@
-const {checkTheSquare} = require('./hw_2_ex3');
+import { checkTheSquare } from './hw_2_ex3.js';
 describe('testing checkTheSquare function: ',()=>{
     test("Should return inside for 2 and 7 ",()=>{
         expect(checkTheSquare(2,7)).toEqual('Inside');

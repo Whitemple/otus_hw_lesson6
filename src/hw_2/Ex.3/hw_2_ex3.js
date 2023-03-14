@@ -8,12 +8,8 @@ function checkTheSquare(r,a){
     const radius = Math.pow(r,2);
     const sSquare = Math.pow(a,2);
     const sCircle = Math.PI*radius;
-    if(sCircle<=sSquare){
-        return 'Inside';
-    }
-    else{
-        return 'Outside';
-    }
+    const result = (sCircle<=sSquare) ? 'Inside' : 'Outside';
+    return result;
 };
 
-module.exports={checkTheSquare};
+export {checkTheSquare};

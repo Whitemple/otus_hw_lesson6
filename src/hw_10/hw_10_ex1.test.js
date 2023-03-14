@@ -5,8 +5,7 @@
 1.Датой.
 */
 
-
-const {cheackDate} = require('./hw_10_ex1');
+import { cheackDate } from './hw_10_ex1.js';
 
 describe('Cheaking with regular expression is entered value is date: ',()=>{
     test("Expect true when user entered 20.07.2022",()=>{
@@ -34,7 +33,7 @@ describe('Cheaking with regular expression is entered value is date: ',()=>{
 2.Адресом электронной почты.
 */
 
-const {cheackEmail} = require('./hw_10_ex1');
+import { cheackEmail } from './hw_10_ex1.js';
 
 describe('Cheaking with regular expression is entered value is email: ',()=>{
     test("Expect true when user entered test@mail.ru",()=>{
