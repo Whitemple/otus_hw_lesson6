@@ -12,27 +12,27 @@
 */
 
 const showWeekDay = () => {
-    const days = [
-      'Воскресенье',
-      'Понедельник',
-      'Вторник',
-      'Среда',
-      'Четверг',
-      'Пятница',
-      'Суббота'
-    ];
-    const enteredDate = prompt("Enter date in the format dd.mm.yyyy: ");
-    const [day, mounth, year] = enteredDate.split('.');
-    const myDate = new Date(`${year}-${mounth}-${day}`);
-    const nameOfDay = myDate.getDay();
-    return days[nameOfDay];
-}
+  const days = [
+    "Воскресенье",
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+  ];
+  const enteredDate = prompt("Enter date in the format dd.mm.yyyy: ");
+  const [day, mounth, year] = enteredDate.split(".");
+  const myDate = new Date(`${year}-${mounth}-${day}`);
+  const nameOfDay = myDate.getDay();
+  return days[nameOfDay];
+};
 
 const showMinutsFromdayStart = (nowDay) => {
-    const minutsPast = nowDay.getMinutes();
-    const hoursPast = nowDay.getHours();
-    const result = minutsPast+(hoursPast*60);
-    return result;
-}
+  const minutsPast = nowDay.getMinutes();
+  const hoursPast = nowDay.getHours();
+  const result = minutsPast + hoursPast * 60;
+  return result;
+};
 
-export {showWeekDay, showMinutsFromdayStart};
+export { showWeekDay, showMinutsFromdayStart };

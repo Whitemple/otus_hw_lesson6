@@ -4,7 +4,7 @@
 и сумму этих чисел.
 */
 
-const multy = (a, b) => a*b;
-const sum = (a, b) => a+b;
+const multy = (a, b) => a * b;
+const sum = (a, b) => a + b;
 
-export {multy, sum};
+export { multy, sum };

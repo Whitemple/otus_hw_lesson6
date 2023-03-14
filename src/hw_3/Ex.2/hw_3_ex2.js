@@ -7,11 +7,11 @@
 */
 
 const showmultiplicationTable = () => {
-    let arr=[];
-    for (let i=1; i<10; i++){
-        arr.push(`7*${i}=${7*i}`);
-    }
-    return arr;
-}
+  const arr = [];
+  for (let i = 1; i < 10; i += 1) {
+    arr.push(`7*${i}=${7 * i}`);
+  }
+  return arr;
+};
 
-export {showmultiplicationTable};
+export { showmultiplicationTable };

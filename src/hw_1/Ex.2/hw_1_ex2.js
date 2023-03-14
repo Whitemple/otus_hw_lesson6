@@ -3,6 +3,7 @@
 суммарное количество символов в обоих строках.
 */
 
-const sumLengthString = (firstArg, secondArg) => firstArg.length + secondArg.length
+const sumLengthString = (firstArg, secondArg) =>
+  firstArg.length + secondArg.length;
 
-export {sumLengthString};
+export { sumLengthString };

@@ -4,8 +4,10 @@
 выводит в консоль сумму цифр введённого числа.
 */
 
-const sumEnteredNumbers=()=>{
-    return prompt('Enter 3 numbers: ').split('').map(Number).reduce((i, value)=>i+value, 0);
-}
+const sumEnteredNumbers = () =>
+  prompt("Enter 3 numbers: ")
+    .split("")
+    .map(Number)
+    .reduce((i, value) => i + value, 0);
 
-export {sumEnteredNumbers};
+export { sumEnteredNumbers };

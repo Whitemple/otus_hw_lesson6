@@ -4,11 +4,11 @@
 */
 
 const showSum = () => {
-    let result = 50;
-    for (let i=51; i<100; i++){
-        result+=i;
-    }
-    return result;
-}
+  let result = 50;
+  for (let i = 51; i < 100; i += 1) {
+    result += i;
+  }
+  return result;
+};
 
-export {showSum};
+export { showSum };

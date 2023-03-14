@@ -1,4 +1,6 @@
-/*Создайте массив целых чисел из 10 элементов.
+/* eslint no-return-assign: "error" */
+
+/* Создайте массив целых чисел из 10 элементов.
 1.Выведите в консоль сумму всех элементов массива.
 2.Создайте новый массив на основе исходного, в
 котором каждый элемент будет вдвое больше
@@ -10,9 +12,7 @@
 */
 
 // 1. Выведите в консоль сумму всех элементов массива.
-const sumValueArray = (arr) => {
-    return arr.reduce((i, value)=>i+value, 0)
-}
+const sumValueArray = (arr) => arr.reduce((i, value) => i + value, 0);
 
 // 2.Создайте новый массив на основе исходного, в
 // котором каждый элемент будет вдвое больше
@@ -20,18 +20,14 @@ const sumValueArray = (arr) => {
 // (a[1] = 3, b[1] = 6, где a — исходный массив, b — новый
 // массив).
 const createNewArr = (arr) => {
-    const newArr = arr.map((x)=>x=x*2);
-    return newArr;
-}
+  const newArr = arr.map((x) => (x *= 2));
+  return newArr;
+};
 
 // 3.*Найдите и выведите в консоль наибольший
-const findTheSmallest = (arr) => {
-    return Math.min.apply(null, arr);
-}
+const findTheSmallest = (arr) => Math.min.apply(null, arr);
 
 // b наименьший элементы исходного массива.
-const findTheBiggest = (arr) => {
-   return  Math.max.apply(null, arr);
-}
+const findTheBiggest = (arr) => Math.max.apply(null, arr);
 
-export {sumValueArray, createNewArr, findTheSmallest, findTheBiggest};
+export { sumValueArray, createNewArr, findTheSmallest, findTheBiggest };

@@ -4,12 +4,12 @@
 которая определяет, поместится ли круг в квадрат
 */
 
-function checkTheSquare(r,a){
-    const radius = Math.pow(r,2);
-    const sSquare = Math.pow(a,2);
-    const sCircle = Math.PI*radius;
-    const result = (sCircle<=sSquare) ? 'Inside' : 'Outside';
-    return result;
-};
+function checkTheSquare(r, a) {
+  const radius = r ** 2;
+  const sSquare = a ** 2;
+  const sCircle = Math.PI * radius;
+  const result = sCircle <= sSquare ? "Inside" : "Outside";
+  return result;
+}
 
-export {checkTheSquare};
+export { checkTheSquare };

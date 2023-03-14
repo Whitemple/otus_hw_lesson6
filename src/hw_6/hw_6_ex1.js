@@ -3,9 +3,9 @@
 наибольшим и наименьшим.
 */
 const diff = (arg1, arg2) => {
-    const result = (arg1>arg2) ? arg1-arg2 : arg2-arg1;
-    return result;
-}
+  const result = arg1 > arg2 ? arg1 - arg2 : arg2 - arg1;
+  return result;
+};
 
 /*
 2.Напишите функцию isWord, которая принимает на
@@ -14,18 +14,15 @@ const diff = (arg1, arg2) => {
 нескольких.
 */
 const isWord = (string) => {
-    const array = string.split(' ');
-    const result = (array.length>1) ? false : true;
-    return result;
-}
+  const array = string.split(" ");
+  const result = !(array.length > 1);
+  return result;
+};
 
 /*
 *Напишите функцию pow(a, x), которая вернёт
 значение числа a, возведённого в степень x.
 */
-const pow = (a, x) => {
-    return a**x;
-}
+const pow = (a, x) => a ** x;
 
-
-export {diff, isWord, pow};
+export { diff, isWord, pow };

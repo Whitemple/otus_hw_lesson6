@@ -5,17 +5,17 @@
 */
 
 const middleSum = () => {
-    let userNumber = +prompt('Enter number: ');
-    let result = 0;
-    let count = 0
-    for(let i=0; i<=userNumber; i++){
-        if(i%2!=0){
-            result+=i;
-            count++;
-        }
+  const userNumber = +prompt("Enter number: ");
+  let result = 0;
+  let count = 0;
+  for (let i = 0; i <= userNumber; i += 1) {
+    if (i % 2 !== 0) {
+      result += i;
+      count += 1;
     }
-    result = result/count;
-    return result;
-}
+  }
+  result /= count;
+  return result;
+};
 
-export {middleSum};
+export { middleSum };
